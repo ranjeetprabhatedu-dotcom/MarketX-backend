@@ -4,7 +4,6 @@
 /build
 
 # local env files
-.env.local
 
 # files
 http.endpoin.http
@@ -53,18 +52,15 @@ BACKLOG_ISSUES_100.md
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 .env.pact
 
 # temp directory
@@ -81,3 +77,4 @@ pids
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 /package-lock.json
+config.bat
